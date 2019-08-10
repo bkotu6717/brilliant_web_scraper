@@ -1,0 +1,109 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://objectivemanager.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - identity
+      User-Agent:
+      - rest-client/2.0.2 (darwin18.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - objectivemanager.com
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Content-Type:
+      - text/html
+      Date:
+      - Fri, 09 Aug 2019 15:17:36 GMT
+      Location:
+      - https://objectivemanager.com/
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Fri, 09 Aug 2019 15:17:37 GMT
+- request:
+    method: get
+    uri: https://objectivemanager.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - identity
+      User-Agent:
+      - rest-client/2.0.2 (darwin18.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - objectivemanager.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 09 Aug 2019 15:17:38 GMT
+      Server:
+      - Apache
+      Cache-Control:
+      - no-cache, must-revalidate, no-store
+      Pragma:
+      - no-cache
+      Expires:
+      - Sat, 26 Jul 1997 05:00:00 GMT
+      Set-Cookie:
+      - objectivemanager_production=2yNNymlb7OWQQffF8G7XpvDHvWMTCXJ5NUKZEyvxIUNSvn%2BQnuW1Puy9TH3jaoNJOR3LFKVcMz0NzedXbBMSWkapC85Uq0Eq7wHEj2Rbkt%2FRUpWTchPhU0HOz7qUXX4BSAlufbJB3hv2BjoNIczcFWs%2FAgBv5KlRUHOJqjIt4iApMSwzDLDvDzD%2FNWKi3eKgrXhFTBkhhCDqPaFV4viDqsTqN%2Fep9aFQifAACNjwo1yfZmKVUwJsGGvkp4BU0WUEj39XCe6zvD67cqUo7lHEFVuYj5YvIEW10Uwj2z8nTCutdvaUimz2l5K1qqOeyulZvecrNwzCf8q3yKmm%2FEy%2BLkuEahMik%2F3K3nUIGB3rAQnyHTiYYeXCiYTnQNZ06vDl;
+        expires=Fri, 09-Aug-2019 23:17:38 GMT; Max-Age=28800; path=/; domain=.objectivemanager.com;
+        secure; httponly
+      - objectivemanager_production=a%3A0%3A%7B%7D; expires=Fri, 10-Aug-2018 01:17:38
+        GMT; Max-Age=-31500000; path=/; domain=.objectivemanager.com
+      Refresh:
+      - 0;url=https://about.objectivemanager.com?env=http://objectivemanager.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - sameorigin
+      Content-Security-Policy:
+      - 'default-src ''self'' *.objectivemanager.com;                 img-src ''self''
+        *.objectivemanager.com data: *.trackjs.com *.google-analytics.com https://d33v4339jhl8k0.cloudfront.net
+        *.doubleclick.net s3.amazonaws.com;                 script-src  ''self'' *.objectivemanager.com
+        https://d2zah9y47r7bi2.cloudfront.net https://djtflbt20bdde.cloudfront.net
+        https://objectivemanager.helpscoutdocs.com https://beacon-v2.helpscout.net
+        *.google-analytics.com ''unsafe-inline'' ''unsafe-eval'';                 font-src
+        ''self'' *.objectivemanager.com fonts.gstatic.com; style-src ''self'' *.objectivemanager.com
+        ''unsafe-inline'' https://djtflbt20bdde.cloudfront.net fonts.googleapis.com;                 object-src
+        ''self'' *.objectivemanager.com https://djtflbt20bdde.cloudfront.net;                 frame-src
+        ''self'' *.objectivemanager.com https://djtflbt20bdde.cloudfront.net;                 connect-src
+        ''self'' *.objectivemanager.com objectivemanager.helpscoutdocs.com https://beaconapi.helpscout.net
+        docsapi.helpscout.net https://chatapi.helpscout.net *.trackjs.com *.google-analytics.com
+        https://d3hb14vkzrxvla.cloudfront.net https://d2zah9y47r7bi2.cloudfront.net;'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '0'
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Fri, 09 Aug 2019 15:17:39 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,316 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://ablesolicitors.ie/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - identity
+      User-Agent:
+      - rest-client/2.0.2 (darwin18.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - ablesolicitors.ie
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Fri, 09 Aug 2019 15:10:53 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3
+      X-Pingback:
+      - http://www.ablesolicitors.ie/xmlrpc.php
+      X-Server:
+      - '3103'
+      Location:
+      - http://www.ablesolicitors.ie/
+      Content-Length:
+      - '0'
+      Content-Type:
+      - text/html; charset=UTF-7
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Fri, 09 Aug 2019 15:10:54 GMT
+- request:
+    method: get
+    uri: http://www.ablesolicitors.ie/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - identity
+      User-Agent:
+      - rest-client/2.0.2 (darwin18.6.0 x86_64) ruby/2.3.1p112
+      Host:
+      - www.ablesolicitors.ie
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 09 Aug 2019 15:10:55 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3
+      X-Pingback:
+      - http://www.ablesolicitors.ie/xmlrpc.php
+      X-Server:
+      - '3103'
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=UTF-7
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html >\n<!--[if lt IE 7 ]> <html class=\"no-js ie6\" lang=\"en-US\">
+        <![endif]-->\n<!--[if IE 7 ]>    <html class=\"no-js ie7\" lang=\"en-US\">
+        <![endif]-->\n<!--[if IE 8 ]>    <html class=\"no-js ie8\" lang=\"en-US\">
+        <![endif]-->\n<!--[if (gte IE 9)|!(IE)]><!--> <html class=\"no-js\" lang=\"en-US\">
+        <!--<![endif]-->\n\n<head>\n\n\t<title> | We are ready, willing and able to
+        represent YOU!</title>\n\t\n\t<meta charset=\"utf-8\">\t\n\t\n\t\t\t\n\t\n\t<!--
+        Mobile Specific Metas\n  \t==================================================
+        -->\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1,
+        maximum-scale=1\" /> \n\t\n\t<link rel=\"profile\" href=\"http://gmpg.org/xfn/11\"
+        />\n\t<link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS 2.0\"
+        href=\"http://www.ablesolicitors.ie/feed/\" />\n\t<link rel=\"alternate\"
+        type=\"text/xml\" title=\"RSS .92\" href=\"http://www.ablesolicitors.ie/feed/rss/\"
+        />\n\t<link rel=\"alternate\" type=\"application/atom+xml\" title=\"Atom 0.3\"
+        href=\"http://www.ablesolicitors.ie/feed/atom/\" />\n\t<link rel=\"pingback\"
+        href=\"http://www.ablesolicitors.ie/xmlrpc.php\" />\n\t\n\n\n\t<!-- CSS\n
+        \ \t================================================== -->\n  \t<!-- Load
+        the basic skeleton and plugin CSS, then the main theme stylesheet -->   \n
+        \   <link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/stylesheets/base.css\"
+        />\n\t<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/stylesheets/skeleton.css\"
+        />\n\t<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/stylesheets/comments.css\"
+        />\n\t<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/stylesheets/buttons.css\"
+        />\n\t<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/stylesheets/ui.totop.css\"
+        />\n\t<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/stylesheets/superfish.css\"
+        />\n\t<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/stylesheets/flexslider.css\"
+        />\n\t<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/javascripts/chosen/chosen.css\"
+        />\n\n\t<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/javascripts/prettyPhoto/css/prettyPhoto.css\"
+        />\n\t\n\t<!-- Alternate rLightbox\n\t<link type=\"text/css\" rel=\"stylesheet\"
+        href=\"< ?php echo get_template_directory_uri(); ?>/assets/javascripts/rlightbox_css/ui-lightness/jquery-ui-1.8.16.custom.css\"
+        />\n\t<link type=\"text/css\" rel=\"stylesheet\" href=\"< ?php echo get_template_directory_uri();
+        ?>/assets/javascripts/rlightbox_css/lightbox.min.css\" />\n\t-->\n\t\n\t<link
+        rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/stylesheets/styles.css\"
+        />\n\t\n\t\n    <!-- Load the font stack from the Options Panel -->\n        <link
+        rel=\"stylesheet\" href=\"http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/stylesheets/typography-sans.css\"
+        />\n        \n    <!-- Load the default skin from the Options Panel -->\n
+        \   \t\t<link rel=\"stylesheet\" href=\"http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/stylesheets/skin-clean.css\"
+        />\n\t\t\n\t\n\t<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"http://www.ablesolicitors.ie/wp-content/themes/reaction/style.css\"
+        />\n\t\n\t\n\t<!-- Favicons, StyleLoader, and basic WP stuff\n\t==================================================
+        -->\n\t<link rel=\"shortcut icon\" href=\"\" type=\"image/gif\" />\n\t\n\t<!--
+        THIS FILE LOADS ALL THE CUSTOMIZATIONS FROM THE THEME OPTIONS PANEL  -->\n\n\n<!--
+        Custom CSS Modifications from the Admin Panel -->\n<style type=\"text/css\">\n\n/*
+        Insert the rest of the custom CSS from the admin panel */ \n \n\t \n\t \n\t/*
+        Add a custom bg if it exists */\n\t\t \n\t\t \n\t \n\t/* This is your link
+        hover color */\n\t\t\n\t\n\t/* This is your link color */\n\t\t\n\t/* This
+        is your visited link color */\n\t\t\t\n\t\n\t\n</style>\n\n\n<!-- ALTERNATIVE
+        HEADLINE FONT OVERRIDE - For TypeKit/GoogleFonts Insertion -->\t\n\n\t\t<!--
+        FONT REPLACEMENT LOADER 1. Checks for opt-outs, then Cufon, then Google and
+        loads the appropriate files. -->\n\t\t \n\t\t\t\n\t\t\t<link rel=\"stylesheet\"
+        type=\"text/css\" href=\"http://fonts.googleapis.com/css?family=\" />\n\t\t\t<style
+        type=\"text/css\">\n\t\t\th1, h2, h3, h4, h5, h6 {\n\t\t\t  font-family: '';\n\t\t\t
+        \  -webkit-transform: rotate(-0.01deg);\n\t\t\t   -moz-transform: rotate(-0.01deg);\n\t\t\t
+        \  text-rendering: optimizeLegibility;\n\t\t\t   -webkit-font-smoothing: antialiased;\n\t\t\t}\n\t\t\t</style>\n\t\t\n\t\t\t\n<!--
+        // END HEADLINE FONT OVERRIDE -->\t\n\n\n\n<!-- Hide the top bar / optional
+        -->\n \n\n\n\n<!-- Check for Column Flipping -->\n\n\n<!-- Check for Force-Hiding
+        of the Breakout Row -->\n\t\n\t\t\n\t\n</head>\n\n\n<!-- Start the Markup\n==================================================
+        -->\n<body class=\"home blog\" >\n\n\n\t\n<!-- Super Container for entire
+        site -->\n<div class=\"super-container full-width\" id=\"section-header\">\n\n\t<!--
+        960 Container -->\n\t<div class=\"container\">\t\t\t\n\t\t\n\t\t<!-- Header
+        -->\n\t\t<header>\n\t\t<div class=\"sixteen columns\">\n\t\t\t \n\t\t\t<!--
+        Branding -->\n\t\t\t<div class=\"three columns alpha\">\n\t\t\t\t<a href=\"http://www.ablesolicitors.ie/\"
+        title=\"\">\n\t\t\t\t\t<h1 id=\"logo\">\n\t\t\t\t\t\t    \t\t    \t\t\n\t
+        \       \t\t\t<img id=\"logotype\" src=\"http://www.ablesolicitors.ie/wp-content/uploads/2012/09/Adjusted-Able-Logo.jpg\"
+        alt=\"\" />\n\t         \t\t</h1>\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t\t<div
+        class=\"three columns alpha call\">\n\t\t\t<h4>Call Us Today</h4>\n\t\t\t01-4736963\n\t\t\t</div>\n\t\t\t<!--
+        /End Branding -->\n\t\t\t\n\t\t\t<div class=\"ten columns omega\">\n\t\t\t\t\t\t\t\t<!--
+        DEFAULT NAVIGATION -->\n\t\t\t\t<ul id=\"menu-main-menu\" class=\"sf-menu
+        dark\"><li id=\"menu-item-153\" class=\"menu-item menu-item-type-custom menu-item-object-custom
+        current-menu-item current_page_item menu-item-home\"><a href=\"http://www.ablesolicitors.ie/\"><strong>Home</strong></a></li>\n<li
+        id=\"menu-item-38\" class=\"menu-item menu-item-type-post_type menu-item-object-page\"><a
+        href=\"http://www.ablesolicitors.ie/practice-areas/\"><strong>Practice Areas</strong></a></li>\n<li
+        id=\"menu-item-37\" class=\"menu-item menu-item-type-post_type menu-item-object-page\"><a
+        href=\"http://www.ablesolicitors.ie/our-people/\"><strong>Our People</strong></a></li>\n<li
+        id=\"menu-item-151\" class=\"menu-item menu-item-type-post_type menu-item-object-page\"><a
+        href=\"http://www.ablesolicitors.ie/news/\"><strong>News</strong></a></li>\n<li
+        id=\"menu-item-36\" class=\"menu-item menu-item-type-post_type menu-item-object-page\"><a
+        href=\"http://www.ablesolicitors.ie/contact/\"><strong>Contact</strong></a></li>\n</ul>\t\t\t\t
+        <!-- /DEFAULT NAVIGATION -->\n\t\t\t\t \n\t\t\t\t \n\t\t\t\t <!-- RESPONSIVE
+        NAVIGATION FLIP -->\n\t\t\t\t<form id=\"responsive-nav\" action=\"\" method=\"post\">\n\t\t\t\t<select
+        class=\"chzn-select\">\n\t\t\t\t<option value=\"\">Navigation</option>\n\t\t\t\t<option
+        value=\"http://www.ablesolicitors.ie/\">Home</option><option value=\"http://www.ablesolicitors.ie/practice-areas/\">Practice
+        Areas</option><option value=\"http://www.ablesolicitors.ie/our-people/\">Our
+        People</option><option value=\"http://www.ablesolicitors.ie/news/\">News</option><option
+        value=\"http://www.ablesolicitors.ie/contact/\">Contact</option>\t\t\t\t</select>\n\t\t\t\t</form>\n\t\t\t\t<!--
+        /END RESPONSIVE NAV -->\t\t\t</div> \n\t\t\t\n\t\t\t<hr class=\"remove-bottom\"/>\n\t\t</div>\n\t\t\n\t\t\t\n\t\t</header>\n\t\t<!--
+        /End Header -->\n\t\n\t</div>\n\t<!-- End 960 Container -->\n\t\n</div>\n<!--
+        End SuperContainer -->\n\n\n<!-- ==============================================
+        -->\n\n<!-- ============================================== -->\n\n\n<!-- FlexSlider
+        -->\n\t<!-- Super Container -->\n<div class=\"super-container full-width main-content-area\"
+        id=\"section-slider\">\n\n\t<!-- 960 Container -->\n\t<div class=\"container\">\n\t\t\n\t\t<!--
+        FlexSlider -->\n\t\t<div class=\"sixteen columns\">\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t<div
+        class=\"slider-shadow\">\n\t\t\t\t<div class=\"flexslider-container\">\n\t\t\t\t\t<div
+        class=\"flexslider\"> \n\t\t\t\t\t  <ul class=\"slides\">\n\t\t\t\t\t     \n\t\t\t\t\t\t
+        \   <li>\n\t\t\t\t\t\t     <img src=\"http://ablesolicitors.ie/new/wp-content/uploads/2012/04/banner-home1.jpg\"
+        alt=\"\" />\n\t\t\t\t\t\t\t \n\t\t\t\t\t\t    </li> \n\t\t\t\t\t\t    <li>\n\t\t\t\t\t\t
+        \    <img src=\"http://ablesolicitors.ie/new/wp-content/uploads/2012/04/banner-home2.jpg\"
+        alt=\"\" />\n\t\t\t\t\t\t\t \n\t\t\t\t\t\t    </li> \n\t\t\t\t\t\t    <li>\n\t\t\t\t\t\t
+        \    <img src=\"http://ablesolicitors.ie/new/wp-content/uploads/2012/04/banner-home3.jpg\"
+        alt=\"\" />\n\t\t\t\t\t\t\t \n\t\t\t\t\t\t    </li> \n\t\t\t\t\t\t    <li>\n\t\t\t\t\t\t
+        \    <img src=\"http://ablesolicitors.ie/new/wp-content/uploads/2012/04/banner-home4.jpg\"
+        alt=\"\" />\n\t\t\t\t\t\t\t \n\t\t\t\t\t\t    </li>\t\t\t\t\t  </ul>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\t\t\n\t\t\t</div>\n\t\t\t\n\t\t\t\t\t\t\n\t\t</div>\t\t\n\t\t<!--
+        /End Full Width Slider-->\n\n\t</div>\n\t<!-- /End 960 Container -->\n\t\n</div>\n<!--
+        /End Super Container -->\t\n\n\n<!-- ==============================================
+        -->\n\n\n<!-- Super Container - Three Column Row - Content comes from OptionTree
+        -->\n<div class=\"super-container full-width featurerow\">\n\n\t<!-- 960 Container
+        -->\n\t<div class=\"container\">\t\n\t\n\t\t<div class=\"sixteen columns\">\t\n\t\n\t\t\t<div
+        class=\"feature\">\n\t\t\t\t\t\t \n\t\t\t\t<style type=\"text/css\">.featurerow
+        .feature{text-align: center;}</style>\n\t\t\t\t\t\t\n\t\t\t<h3 style=\"text-align:
+        center;\"><span style=\"color: #000080;\">Property, Personal Injury, Wills
+        &amp; Probate, </span></h3>\r\n<h3 style=\"text-align: center;\"><span style=\"color:
+        #000080;\">Wards of Court, Corporate Law, Employment Law,</span></h3>\r\n<h3
+        style=\"text-align: center;\"><span style=\"color: #000080;\">Defamation,
+        Family Law, Notary Public Services<br /></span></h3></div>\n\t\t\n\t\t\t<br
+        class=\"clearfix\" />\n\t\t\t<hr />\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\t\n\t</div>\n\t<!--
+        /End 960 Container -->\n\n</div>\n<!-- /End Super Container -->\n\t\n\n\n\n<!--
+        ============================================== -->\n\n\n\n<!-- Super Container
+        - Three Column Row - Content comes from OptionTree -->\n<div class=\"super-container
+        full-width\" id=\"section-thirds\">\n\n\t<!-- 960 Container -->\n\t<div class=\"container\">\t\t\n\t\t\n\t\t\t\t\n\t\t<!--
+        1/3 Columns -->\n\t\t<div class=\"one-third column\">\t\t\t\t\n\t\t\t<div
+        class=\"module\">\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t<div class=\"module-meta\">\n\t\t\t\t\t<h4
+        style=\"text-align: center; font-family: Trebuchet MS, Gill Sans, Gill Sans
+        MT, Helvetica, sans-serif !important;\"><a href=\"\">About Us</a></h4>\t\n\t\t\t\t\t<p><p
+        style=\"text-align: justify;\"><strong>Able Solicitors is an Irish law firm
+        situated in Inchicore, Dublin 8.</strong></p>\r\n<p style=\"text-align: justify;\"><strong>Our
+        Mission Statement is, <em>\"To uphold the legal rights of all our clients
+        before the law and to treat all clients equally with respect, integrity and
+        the utmost professionalism.\"</em> </strong></p>\r\n<p style=\"text-align:
+        justify;\">We are committed to providing a top-class legal service while ensuring
+        that our fees and outlays are maintained at a competitive level throughout.
+        Our clients are drawn from all over Ireland and internationally as we can
+        conduct our business with you from our friendly offices in Dublin 8 or on-line
+        via electronic means.</p>\r\n<p style=\"text-align: justify;\">We represent
+        clients of all ages, creeds and values from the purchase of their first property
+        to representation in the Irish Courts. We are focussed on providing expert
+        and efficient legal solutions while upholding our fundamental philosophy of
+        a client-centred approach. Why not see what we can do for you?</p></p>\n\t\t\t\t</div>\t\t\t\t\t\t\n\t\t\t</div>\t\t\t\t\n\t\t</div>\n\n\t\t<div
+        class=\"one-third column\">\t\t\t\t\n\t\t\t<div class=\"module\">\n\t\t\t\t\t\t\t\t<div
+        class=\"module-meta\">\n\t\t\t\t\t<h4 style=\"text-align: center; font-family:
+        Trebuchet MS, Gill Sans, Gill Sans MT, Helvetica, sans-serif !important;\"><a
+        href=\"\">What Our Clients Say...</a></h4>\t\n\t\t\t\t\t<p><p style=\"text-align:
+        justify;\"><strong>G. Redden</strong><em>~</em></p>\r\n<p style=\"text-align:
+        justify;\"><em>Brilliant lady solicitor, very down to earth with a no nonsense
+        approach. Joanne advised me of all the legal options available to me and defended
+        me to the last</em> <em>in my family law proceedings.</em></p>\r\n<p style=\"text-align:
+        justify;\"><strong>Vicky Kelly~</strong></p>\r\n<p style=\"text-align: justify;\"><em>An
+        expert firm of probate lawyers, who finalised the Wardship application for
+        my mother. I can't thank your staff enough for the kindness and efficiency
+        shown to my family throughout this trying time.</em></p>\r\n<p style=\"text-align:
+        justify;\"><strong>D.F~</strong></p>\r\n<p style=\"text-align: justify;\"><em>I
+        just want to express my sincere thanks for all of your hard work with my personal
+        injury claim. The settlement has given me some level of justice for the injuries
+        I suffered.</em></p></p>\n\t\t\t\t</div>\t\t\t\t\t\t\n\t\t\t</div>\t\t\t\t\n\t\t</div>\n\n\t\t<div
+        class=\"one-third column\">\t\t\t\t\n\t\t\t<div class=\"module\">\t\n\t\t\t\t\t\t\t\t<div
+        class=\"module-meta\">\n\t\t\t\t\t<h4 style=\"text-align: center; font-family:
+        Trebuchet MS, Gill Sans, Gill Sans MT, Helvetica, sans-serif !important;\"><a
+        href=\"\">We Want to Hear From You!</a></h4>\t\n\t\t\t\t\t<p><div class=\"wpcf7\"
+        id=\"wpcf7-f142-t1-o1\"><form action=\"/#wpcf7-f142-t1-o1\" method=\"post\"
+        class=\"wpcf7-form\" novalidate=\"novalidate\">\n<div style=\"display: none;\">\n<input
+        type=\"hidden\" name=\"_wpcf7\" value=\"142\" />\n<input type=\"hidden\" name=\"_wpcf7_version\"
+        value=\"3.4.2\" />\n<input type=\"hidden\" name=\"_wpcf7_unit_tag\" value=\"wpcf7-f142-t1-o1\"
+        />\n<input type=\"hidden\" name=\"_wpnonce\" value=\"4f9d0007a5\" />\n</div>\n<p>Your
+        Name (required)<br />\n    <span class=\"wpcf7-form-control-wrap your-name\"><input
+        type=\"text\" name=\"your-name\" value=\"\" size=\"40\" class=\"wpcf7-form-control
+        wpcf7-text wpcf7-validates-as-required\" aria-required=\"true\" /></span>
+        </p>\n<p>Your Email (required)<br />\n    <span class=\"wpcf7-form-control-wrap
+        your-email\"><input type=\"email\" name=\"your-email\" value=\"\" size=\"40\"
+        class=\"wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required
+        wpcf7-validates-as-email\" aria-required=\"true\" /></span> </p>\n<p>Your
+        Message<br />\n    <span class=\"wpcf7-form-control-wrap your-message\"><textarea
+        name=\"your-message\" cols=\"40\" rows=\"10\" class=\"wpcf7-form-control wpcf7-textarea\"></textarea></span>
+        </p>\n<p><input type=\"submit\" value=\"Send\" class=\"wpcf7-form-control
+        wpcf7-submit\" /></p>\n<div class=\"wpcf7-response-output wpcf7-display-none\"></div></form></div></p>\n\t\t\t\t</div>\t\t\t\t\t\t\n\t\t\t</div>\t\t\t\t\n\t\t</div>\t\t\n\t\t<!--
+        /End 1/3 Columns -->\n\t\t\n\t</div>\n\t<!-- /End 960 Container -->\n\n</div>\n<!--
+        /End Super Container -->\n\t\n\n\n<!-- ==============================================
+        -->\n\n\n<!-- Breakout Row -->\n\t\n\n\n<!-- ==============================================
+        -->\n\n\n<!-- Super Container | Footer Widget Space (Optional) -->\n<div class=\"super-container
+        full-width\" id=\"section-footer\">\t\t\n\n\t<!-- 960 Container -->\n\t<div
+        class=\"container\">\n\t\n\t\t<!-- footer -->\n\t\t<footer>\n\t\t<div class=\"sixteen
+        columns\" id=\"footer\">\n\t\t\t\n\t\t\t<hr /> \t\t\t\n\t\t\t\n\t\t\t<!--
+        1/4 -->\n\t\t\t<div class=\"five columns alpha\">\n\t\t\t\t\t\t\t</div>\n\t\t\t<!--
+        /End 1/4 -->\n\t\t\t\n\t\t\t<!-- 2/4 -->\n\t\t\t<div class=\"five columns\">\n\t\t\t\t\t\n\t\t\t</div>\n\t\t\t<!--
+        /End 2/4 -->\n\t\t\t\n\t\t\t<!-- 3/4 -->\n\t\t\t<div class=\"three columns\">\n\t\t\t\t\t\t\t</div>\n\t\t\t<!--
+        /End 3/4 -->\t\t\n\t\t\t\n\t\t\t\n\t\t\t<!-- 4/4 -->\n\t\t\t<div class=\"three
+        columns omega\">\n\t\t\t\t\t\t\t</div>\n\t\t\t<!-- /End 4/4 -->\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\t</footer>\n\t\t<!--
+        /End Footer -->\t\t\n\n\t</div>\n\t<!-- /End 960 Container -->\n\t\n</div>\n<!--
+        /End Super Container -->\n\n\n<!-- ==============================================
+        -->\n\n\n<!-- Super Container - SubFooter Space -->\n<div class=\"super-container
+        full-width\" id=\"section-sub-footer\">\t\t\n\n\t<!-- 960 Container -->\n\t<div
+        class=\"container\">\n\n\t\t<div class=\"sixteen columns\">\t\n\t\t\t\n\t\t\t\n\t\t\t\t<span
+        class=\"copyright\"><div>\r\n<h2><strong>Magdalene Laundries</strong></h2>\r\n</div>\r\n<hr
+        />\r\n<h2 style=\"text-align: justify;\"><strong style=\"font-size: 13px;\">21
+        February 2013</strong></h2>\r\n<p style=\"text-align: justify;\"><strong>The
+        recent publication of the McAleese Report into the</strong></p>\r\n<p style=\"text-align:
+        justify;\"><strong>Magdalene Laundries expressly states that there was </strong></p>\r\n<p
+        style=\"text-align: justify;\"><strong>widespread abuse levied against the
+        women within these </strong></p>\r\n<p style=\"text-align: justify;\"><strong>laundries
+        from 1922 to 1996 .<a href=\"http://www.ablesolicitors.ie/magdalene-laundries/
+        \">Read More....</a></strong></p></span>\t\t\t\t\t\t\t\t<ul class=\"social\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+        target=\"_blank\" href=\"http://www.facebook.com/able.solicitors\"><img src=\"http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/images/theme/social-icons/facebook_32.png\"
+        alt=\"facebook\" title=\"Facebook\" /></a></li>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+        target=\"_blank\" href=\"http://www.linkedin.com/profile/view?id=110433579&goback=%2Enmp_*1_*1_*1_*1_*1_*1_*1_*1_*1&trk=spm_pic\"><img
+        src=\"http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/images/theme/social-icons/linkedin_32.png\"
+        alt=\"linkedin\" title=\"LinkedIn\" /></a></li>\t\t\t\t\t<li><a target=\"_blank\"
+        href=\"http://www.ablesolicitors.ie/feed/\" target=\"_blank\"><img src=\"http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/images/theme/social-icons/rss_32.png\"
+        alt=\"RSS\" title=\"RSS\" /></a></li>\n\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t<span
+        class=\"colophon\"><div>\r\n<h2>News</h2>\r\n</div>\r\n<hr />\r\n<h4><span
+        style=\"text-decoration: underline;\">Woman bringing case over defective hip
+        implacts</span></h4>\r\n<p style=\"text-align: justify;\">30th January 2013</p>\r\n<p
+        style=\"text-align: justify;\">A woman who had two hip replacement operations
+        intends</p>\r\n<p style=\"text-align: justify;\">to bring what is expected
+        to be the first of many cases over</p>\r\n<p style=\"text-align: justify;\">allegedly
+        defective hip implants.Irene Pierson is one of thousands</p>\r\n<p style=\"text-align:
+        justify;\">of people who had DePuy Orthopaedics <a href=\"http://www.ablesolicitors.ie/woman-bringing-first-case-over-allegedly-defective-hip-implants/\">Read
+        More </a></p></span>\t\t</div>\n\n\t</div>\n\t<!-- /End 960 Container -->\n\t\n</div>\n<!--
+        /End Super Container -->\n\n\n\n<script type='text/javascript' src='http://code.jquery.com/jquery-1.7.min.js?ver=1.7'></script>\n<script
+        type='text/javascript' src='http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/javascripts/tabs.js'></script>\n<script
+        type='text/javascript' src='http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/javascripts/jquery.flexslider-min.js'></script>\n<script
+        type='text/javascript' src='http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/javascripts/filterable.pack.js'></script>\n<script
+        type='text/javascript' src='http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/javascripts/jquery.prettyPhoto.js'></script>\n<script
+        type='text/javascript' src='http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/javascripts/jquery.hoverIntent.js'></script>\n<script
+        type='text/javascript' src='http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/javascripts/superfish.js'></script>\n<script
+        type='text/javascript' src='http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/javascripts/supersubs.js'></script>\n<script
+        type='text/javascript' src='http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/javascripts/chosen/chosen.jquery.js?ver=0.9'></script>\n<script
+        type='text/javascript' src='http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/javascripts/jquery.tipsy.js'></script>\n<script
+        type='text/javascript' src='http://www.ablesolicitors.ie/wp-content/themes/reaction/assets/javascripts/skeleton-key.js'></script>\n\n\t<style
+        type=\"text/css\">\n\t\tselect.chzn-select  {\n\t\theight: 30px;\n\t\tpadding:
+        6px;\n\t\twidth: 100%;  }\n\t</style>\n\n\n\t\t\t\t\t<!-- Default Portfolio
+        View - Grabs the variable set in the template-xxx.php files -->\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t<script
+        type=\"text/javascript\">\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t(function($) {\n\t\t\t\t\t\t\t\t
+        // Grid View Defaults \n\t\t\t\t\t\t\t\t //\t $(\"#portfolio-list .module-container\").removeClass(\"sixteen
+        columns\").addClass(\"four columns\");\n\t\t\t\t\t\t\t\t //\t $(\"#portfolio-list
+        .module-img\").removeClass(\"twelve columns alpha\");\n\t\t\t\t\t\t\t\t //\t
+        $(\"#portfolio-list .module-meta\").fadeOut(100).removeClass(\"four columns
+        alpha omega visible\");\n\t\t\t\t\t\t\t\t\t jQuery(\".list_btn\").css(\"opacity\",\"1\");\n\t\t\t\t\t\t\t\t\t
+        jQuery(\".hybrid_btn\").css(\"opacity\",\"1\");\n\t\t\t\t\t\t\t\t\t jQuery(\".grid_btn\").css(\"opacity\",\"0.5\");\n\t\t\t\t\t\t\t})(jQuery);\n\t\t\t\t\t\t</script>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t<!--
+        End Default Portfolio View -->\n\n</body>\n</html>"
+    http_version: 
+  recorded_at: Fri, 09 Aug 2019 15:10:56 GMT
+recorded_with: VCR 3.0.3
