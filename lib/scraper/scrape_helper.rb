@@ -7,18 +7,20 @@
 # @Contact Details
 module ScrapeHelper
   def perform_scrape(url, read_timeout, connection_timeout)
-    response = ScrapeRequest.new(url, read_timeout, connection_timeout)
+    response = nil
+    request_duration = Benchmark.measure do
+      response = ScrapeRequest.new(url, read_timeout, connection_timeout)
+    end.real
     retry_count = 0
     begin
       scrape_data = nil
-      duration = response.respond_to?(:duration) ? response.duration : nil
-      scrape_time = Benchmark.measure do
+      scrape_duration = Benchmark.measure do
         scrape_data = grep_data(response.body)
-      end.total
+      end.real
 
       data_hash = {
-        web_request_duration: duration,
-        response_scrape_duraton: scrape_time,
+        web_request_duration: request_duration,
+        response_scrape_duraton: scrape_duration,
         scrape_data: scrape_data
       }
     rescue ArgumentError => e
@@ -31,9 +33,7 @@ module ScrapeHelper
     rescue Encoding::CompatibilityError => e
       raise WebScraper::ParserError, e.message
     end
-    return data_hash if data_hash[:scrape_data].values.any?
-
-    {}
+    data_hash
   end
 
   private

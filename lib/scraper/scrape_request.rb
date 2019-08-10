@@ -10,7 +10,7 @@ module ScrapeRequest
           method: :get,
           url: url,
           read_timeout: read_timeout,
-          open_timeout: connection_timeout,
+          connection_timeout: connection_timeout,
           headers: { 'accept-encoding': 'identity' }
         }
         response = RestClient::Request.execute(params_hash)

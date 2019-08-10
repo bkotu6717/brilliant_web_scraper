@@ -2,7 +2,6 @@
 
 require 'rest-client'
 require 'cgi'
-require 'pry'
 require 'benchmark'
 
 current_directory = File.dirname(__FILE__) + '/scraper'
@@ -54,5 +53,3 @@ class WebScrape
     end
   end
 end
-
-# puts WebScrape.new('introhive.com')

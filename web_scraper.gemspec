@@ -8,7 +8,12 @@ Gem::Specification.new do |s|
   s.email = 'bkotu6717@gmail.com'
   s.require_paths = ['lib']
   s.homepage = 'https://rubygems.org/gems/example'
-  s.files        = Dir.glob("{lib,spec}/**/*")
+  s.files         = Dir['**/*'].keep_if { |file| 
+    file != 'web_scraper-1.0.0.gem' && File.file?(file) 
+  }
+  s.add_dependency 'nesty', '~> 1.0', '>= 1.0.1'
+  s.add_dependency 'rest-client', '~> 2.0', '>= 2.0.2'
+  
   s.add_development_dependency 'nesty', '~> 1.0', '>= 1.0.1'
   s.add_development_dependency 'pry', '~> 0.12.2'
   s.add_development_dependency 'rubocop', '~> 0.73.0'
