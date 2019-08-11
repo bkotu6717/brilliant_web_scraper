@@ -8,7 +8,7 @@ It accepts a URL or Domain as input and gets it's title, descrptios, social prof
 
 ## See it in action!
 
-You can try WebScraper live at this little demo: [https://brilliantweb-scraper-demo.herokuapp.com](https://brilliant-web-scraper-demo.herokuapp.com)
+You can try WebScraper live at this little demo: [https://brilliant-web-scraper-demo.herokuapp.com](https://brilliant-web-scraper-demo.herokuapp.com)
 
 ## Installation
 
