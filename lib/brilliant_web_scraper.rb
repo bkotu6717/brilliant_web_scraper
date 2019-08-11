@@ -29,7 +29,7 @@ require File.expand_path(File.join(current_directory, 'phone_numbers'))
 require File.expand_path(File.join(current_directory, 'redirected_to'))
 
 # Main scraping class
-class WebScrape
+class BrilliantWebScraper
   extend ScrapeHelper
   extend ScrapeRequest
   extend Title
@@ -53,3 +53,4 @@ class WebScrape
     end
   end
 end
+# puts BrilliantWebScraper.new('introhive.com')

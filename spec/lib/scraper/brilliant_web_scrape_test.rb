@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe 'WebScrape' do
+describe 'BrilliantWebScraper' do
   it 'should get valid scraped data' do
     VCR.use_cassette('valid_scrape_response') do
-      data = WebScrape.new('unisourceworldwide.com')
+      data = BrilliantWebScraper.new('unisourceworldwide.com')
       expect(data[:scrape_data]).to eq(
         { :title=>'Leading North American Distributor | Veritiv Corporation', 
           :meta_description=>'Full-service distribution services including warehousing, paper and packaging distribution, publishing, facility solutions and logistics.', 
@@ -26,7 +26,7 @@ describe 'WebScrape' do
 
   it 'should return {} when no valid data available' do
     VCR.use_cassette('no_valid_data_to_scrape') do
-      data = WebScrape.new('objectivemanager.com')
+      data = BrilliantWebScraper.new('objectivemanager.com')
       expect(data).to eq({})
     end
   end
@@ -34,7 +34,7 @@ describe 'WebScrape' do
   describe 'parse exceptions' do
     it 'should enforce UTF-8 encoding and retry parsing' do
       VCR.use_cassette('invalid_byte_sequence_utf_8') do
-        data = WebScrape.new('mzaabudhabi.ae')
+        data = BrilliantWebScraper.new('mzaabudhabi.ae')
         expect(data[:scrape_data]).to eq(
           { :title=>"Media Zone Authority",
             :meta_description=>"Find out what the Media Zone Authority is about",
@@ -58,7 +58,7 @@ describe 'WebScrape' do
     it 'should raise parse exception' do
       VCR.use_cassette('encoding_compatibility_error') do
         expect { 
-          WebScrape.new('ablesolicitors.ie')
+          BrilliantWebScraper.new('ablesolicitors.ie')
         }.to raise_error(WebScraper::ParserError)
       end      
     end

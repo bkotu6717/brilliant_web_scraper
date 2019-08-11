@@ -1,4 +1,4 @@
-# WebScraper [![Build Status](https://api.travis-ci.com/bkotu6717/web_scraper.svg)](https://travis-ci.com/bkotu6717/web_scraper)
+# WebScraper [![Build Status](https://api.travis-ci.com/bkotu6717/brilliant_web_scraper.svg)](https://travis-ci.com/bkotu6717/brilliant_web_scraper)
 
 A decent web scraping gem. Scrapes website description, social profiles, contact details, youtube channels.
 
@@ -8,7 +8,7 @@ It accepts a URL or Domain as input and gets it's title, descrptios, social prof
 
 ## See it in action!
 
-You can try WebScraper live at this little demo: [https://web-scraper-demo.herokuapp.com](https://web-scraper-demo.herokuapp.com)
+You can try WebScraper live at this little demo: [https://brilliantweb-scraper-demo.herokuapp.com](https://brilliant-web-scraper-demo.herokuapp.com)
 
 ## Installation
 
@@ -16,15 +16,16 @@ You can try WebScraper live at this little demo: [https://web-scraper-demo.herok
 If you're using it on a Rails application, just add it to your Gemfile and run `bundle install`
 
 ```ruby
-gem 'web_scraper', git: 'https://github.com/bkotu6717/web_scraper.git'
+gem 'brilliant_web_scraper'
 ```
 
 ## Usage
 
-Initialize a WebScrape instance for an URL, like this:
+Initialize a BrilliantWebScraper instance for an URL, like this:
 
 ```ruby
-results = WebScrape.new('http://pwc.com')
+require 'brilliant_web_scraper'
+results = BrilliantWebScraper.new('http://pwc.com')
 ```
 
 If you don't include the scheme on the URL, it is fine:

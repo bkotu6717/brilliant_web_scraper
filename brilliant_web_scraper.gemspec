@@ -3,7 +3,7 @@
 require File.expand_path('./lib/version')
 
 Gem::Specification.new do |s|
-  s.name =  'web_scraper'
+  s.name =  'brilliant_web_scraper'
   s.version = WebScraper::VERSION
   s.licenses = ['Nonstandard']
   s.summary = 'A decent web scraping ruby library!'
@@ -11,10 +11,12 @@ Gem::Specification.new do |s|
   s.authors = ['Kotu Bhaskara Rao']
   s.email = 'bkotu6717@gmail.com'
   s.require_paths = ['lib']
-  s.homepage = 'https://github.com/bkotu6717/web_scraper'
+  s.homepage = 'https://github.com/bkotu6717/brilliant_web_scraper'
   s.files = Dir['**/*'].keep_if { |file|
-    file != "web_scraper-#{WebScraper::VERSION}.gem" && File.file?(file)
+    file != "brilliant_web_scraper-#{WebScraper::VERSION}.gem" && File.file?(file)
   }
+  s.required_ruby_version = '>= 2.3.0'
+
   s.add_dependency 'nesty', '~> 1.0', '>= 1.0.1'
   s.add_dependency 'rest-client', '~> 2.0', '>= 2.0.2'
 

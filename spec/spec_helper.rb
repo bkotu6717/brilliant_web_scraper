@@ -1,5 +1,5 @@
 $: << File.join(File.dirname(__FILE__), "/../lib")
-require 'web_scraper'
+require 'brilliant_web_scraper'
 require 'webmock/rspec'
 require 'pry'
 require 'vcr'

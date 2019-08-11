@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    web_scraper (1.0.0)
+    brilliant_web_scraper (1.0.0)
       nesty (~> 1.0, >= 1.0.1)
       rest-client (~> 2.0, >= 2.0.2)
 
@@ -75,13 +75,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  brilliant_web_scraper!
   nesty (~> 1.0, >= 1.0.1)
   pry (~> 0.12.2)
   rest-client (~> 2.0, >= 2.0.2)
   rspec (~> 3.5)
   rubocop (~> 0.73.0)
   vcr (~> 3.0, >= 3.0.1)
-  web_scraper!
   webmock (~> 2.1)
 
 BUNDLED WITH
