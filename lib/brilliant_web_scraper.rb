@@ -53,4 +53,3 @@ class BrilliantWebScraper
     end
   end
 end
-# puts BrilliantWebScraper.new('introhive.com')
