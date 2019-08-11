@@ -1,4 +1,4 @@
-# WebScraper [![Build Status](https://secure.travis-ci.org/bkotu6717/web_scraper.png)](http://travis-ci.org/bkotu6717/web_scraper.png)
+# WebScraper [![Build Status](https://api.travis-ci.com/bkotu6717/web_scraper.svg)](https://travis-ci.com/bkotu6717/web_scraper)
 
 A decent web scraping gem. Scrapes website description, social profiles, contact details, youtube channels.
 
