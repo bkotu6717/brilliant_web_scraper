@@ -1,0 +1,3 @@
+script: "bundle exec rspec -b"
+rvm:
+- 2.3.1
