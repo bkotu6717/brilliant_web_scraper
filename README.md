@@ -1,14 +1,11 @@
-# WebScraper [![Build Status](https://api.travis-ci.com/bkotu6717/brilliant_web_scraper.svg)](https://travis-ci.com/bkotu6717/brilliant_web_scraper)
+# BrilliantWebScraper [![Build Status](https://api.travis-ci.com/bkotu6717/brilliant_web_scraper.svg)](https://travis-ci.com/bkotu6717/brilliant_web_scraper)[![Maintainability](https://api.codeclimate.com/v1/badges/15a8a6e117f11bd94376/maintainability)](https://codeclimate.com/github/bkotu6717/brilliant_web_scraper/maintainability)
 
-A decent web scraping gem. Scrapes website description, social profiles, contact details, youtube channels.
-
-
-It accepts a URL or Domain as input and gets it's title, descrptios, social profiles, YouTube channels and it's current URL if got redirected.
+A decent web scraping gem. Scrapes website title, description, social profiles such as linkedin, facebook, twitter, instgram, vimeo, pinterest, youtube channel and contact details such as emails, phone numbers.
 
 
 ## See it in action!
 
-You can try WebScraper live at this little demo: [https://brilliant-web-scraper-demo.herokuapp.com](https://brilliant-web-scraper-demo.herokuapp.com)
+You can try BrillaintWebScraper live at this little demo: [https://brilliant-web-scraper-demo.herokuapp.com](https://brilliant-web-scraper-demo.herokuapp.com)
 
 ## Installation
 
@@ -27,5 +24,3 @@ Initialize a BrilliantWebScraper instance for an URL, like this:
 require 'brilliant_web_scraper'
 results = BrilliantWebScraper.new('http://pwc.com')
 ```
-
-If you don't include the scheme on the URL, it is fine:

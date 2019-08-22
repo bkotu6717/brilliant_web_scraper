@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# @Makes actual scrape request, either raises exception or response
+# @Makes actual scrape request, either raises exception or serves response
 module ScrapeRequest
   extend ScrapeExceptions
   class << self

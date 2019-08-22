@@ -12,10 +12,13 @@ module ScrapeHelper
       response = ScrapeRequest.new(url, read_timeout, connection_timeout)
     end.real
     retry_count = 0
+    body = response.body
     begin
+      encoding = body.detect_encoding[:encoding]
+      body = body.encode('UTF-8', encoding)
       scrape_data = nil
       scrape_duration = Benchmark.measure do
-        scrape_data = grep_data(response.body)
+        scrape_data = grep_data(body)
       end.real
 
       data_hash = {
@@ -23,12 +26,10 @@ module ScrapeHelper
         response_scrape_duraton: scrape_duration,
         scrape_data: scrape_data
       }
-    rescue ArgumentError => e
+    rescue Encoding::UndefinedConversionError, ArgumentError
       retry_count += 1
       raise WebScraper::ParserError, e.message if retry_count > 1
-
-      response = response.encode('UTF-16be', invalid: :replace, replace: '?')
-      response = response.encode('UTF-8')
+      body = body.encode('UTF-16be', invalid: :replace, replace: '?')
       retry
     rescue Encoding::CompatibilityError => e
       raise WebScraper::ParserError, e.message

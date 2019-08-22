@@ -3,6 +3,8 @@
 require 'rest-client'
 require 'cgi'
 require 'benchmark'
+require 'charlock_holmes/string'
+
 
 current_directory = File.dirname(__FILE__) + '/scraper'
 require File.expand_path(File.join(current_directory, 'errors'))
