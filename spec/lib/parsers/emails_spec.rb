@@ -27,6 +27,10 @@ describe 'Emails' do
       <a href="mailto:xxx@yyy.zzz">xxx@yyy.zzz</a>
       <a href="mailto:test@test.com">test@test.com</a>
       <a href="mailto:@example.com">@example.com"</a>
+      <a href="mailto:v@201908240100.css">v@201908240100.css"</a>
+      <a href="mailto:v@201908240100.js">v@201908240100.js"</a>
+      <a href="mailto:ajax-loader@2x.gif">ajax-loader@2x.gif"</a>
+      <a href="mailto:favicon@2x.ico">favicon@2x.ico"</a>
   	HTML
   	expect(dummy_object.grep_emails(html.to_s)).to eq([])
   end

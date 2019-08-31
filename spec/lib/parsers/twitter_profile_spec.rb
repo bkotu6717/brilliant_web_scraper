@@ -31,6 +31,7 @@ describe 'Twitter Profile' do
       <a href=" http://twitter.com/share/" target="_blank">
       <a href="https://twitter.com/#!/Farmer_Brothers" target="_blank">
       <a href="http://twitter.com/javascripts/blogger.js" target="_blank">
+      <a href="https://twitter.com/{{../user.screen_name}}/status/{{../id_str}}" target="_blank">
     HTML
     expect(dummy_object.grep_twitter_profile(html.to_s)).to eq([])
   end

@@ -10,7 +10,7 @@ module Emails
     return if response.nil? || response.empty?
 
     first_regex = /(?im)mailto:\s*([^\?"',\\<>\s]+)/
-    second_regex = %r{(?im)["'\s><\/]*([\w._%-]+@(?!(?:example|e?mail|domain|company|your(?:domain|company|email)|address|emailad?dress|yyy|test)\.)[\w._%-]+\.(?!png|jpe?g|tif|svg)[A-Z]{2,3})["'\s><]}
+    second_regex = %r{(?im)["'\s><\/]*([\w._%-]+@(?!(?:example|e?mail|domain|company|your(?:domain|company|email)|address|emailad?dress|yyy|test)\.)[\w._%-]+\.(?!png|jpe?g|tif|svg|css|js|ico|gif)[A-Z]{2,3})["'\s><]}
     first_set = response.scan(first_regex).flatten.compact
     first_set = get_processed_emails(first_set)
     second_set = response.scan(second_regex).flatten.compact
@@ -24,7 +24,7 @@ module Emails
     unescaped_emails = email_set.map { |email| unescape_html(email) }
     return [] if unescaped_emails.empty?
 
-    email_match_regex = /[\w._%-]+@(?!(?:example|e?mail|domain|company|your(?:domain|company|email)|address|emailad?dress|yyy|test)\.)[\w._%-]+\.(?!png|jpe?g|tif|svg)[A-Z]{2,3}/im
+    email_match_regex = /[\w._%-]+@(?!(?:example|e?mail|domain|company|your(?:domain|company|email)|address|emailad?dress|yyy|test)\.)[\w._%-]+\.(?!png|jpe?g|tif|svg|css|js|ico|gif)[A-Z]{2,3}/im
     unescaped_emails.select { |data| data =~ email_match_regex }
   end
 end

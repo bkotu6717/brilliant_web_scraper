@@ -2,5 +2,5 @@
 
 # Holds current version number
 module WebScraper
-  VERSION = '0.1'
+  VERSION = '0.2'
 end

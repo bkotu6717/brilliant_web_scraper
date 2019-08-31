@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    brilliant_web_scraper (0.1)
+    brilliant_web_scraper (0.2)
       charlock_holmes (~> 0.7.6)
       nesty (~> 1.0, >= 1.0.1)
       rest-client (~> 2.0, >= 2.0.2)

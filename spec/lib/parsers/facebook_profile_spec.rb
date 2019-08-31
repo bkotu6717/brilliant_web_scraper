@@ -14,6 +14,7 @@ describe 'FaceBook Profile' do
 
   it 'should not grep any non profile url' do
     html = <<~HTML
+      <a href="https://www.facebook.com/images/fb_icon_325x325.png" target="_blank" class="sqs-svg-icon--wrapper facebook">
       <a href="http://www.facebook.com/2008/fbml" target="_blank" class="sqs-svg-icon--wrapper facebook">
       <a href="https://www.facebook.com/v2.0/dialog/share" target="_blank" class="sqs-svg-icon--wrapper facebook">
       <a href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FHFXMooseheads%2Fvideos" target="_blank" class="sqs-svg-icon--wrapper facebook">

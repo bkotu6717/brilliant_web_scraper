@@ -30,13 +30,15 @@ describe 'Vimeo Profile' do
       <a href="https://vimeo.com/channels/332103" target="_blank">
       <a href="https://vimeo.com/talech" target="_blank">
       <a href="https://vimeo.com/292173295/fdb8634a35/" target="_blank">
+      <a href="https://vimeo.com/337614648\\" target="_blank">
     HTML
     vimeo_profiles = dummy_object.grep_vimeo_profile(html.to_s)
     expected_profiles = [ 
-      'https://vimeo.com/107578087', 
-      'https://vimeo.com/channels/332103', 
-      'https://vimeo.com/talech', 
-      'https://vimeo.com/292173295/fdb8634a35/', 
+      'https://vimeo.com/107578087',
+      'https://vimeo.com/channels/332103',
+      'https://vimeo.com/talech',
+      'https://vimeo.com/292173295/fdb8634a35/',
+      'https://vimeo.com/337614648'
     ]
     expect(vimeo_profiles).to eq(expected_profiles)
   end

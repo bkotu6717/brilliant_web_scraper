@@ -18,9 +18,11 @@ gem 'brilliant_web_scraper'
 
 ## Usage
 
-Initialize a BrilliantWebScraper instance for an URL, like this:
+Initialize a BrilliantWebScraper instance for an URL, like this with optional timeouts, default connection_timeout and read_timeouts are 10s, 10s respectively:
 
 ```ruby
 require 'brilliant_web_scraper'
+results = BrilliantWebScraper.new('http://pwc.com', 5, 5)
+
 results = BrilliantWebScraper.new('http://pwc.com')
 ```

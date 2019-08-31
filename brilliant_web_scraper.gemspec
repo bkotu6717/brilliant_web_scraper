@@ -23,9 +23,9 @@ Gem::Specification.new do |s|
   }
   s.required_ruby_version = '>= 2.3.0'
 
-  s.add_dependency 'charlock_holmes', '~> 0.7.6'
-  s.add_dependency 'nesty', '~> 1.0', '>= 1.0.1'
-  s.add_dependency 'rest-client', '~> 2.0', '>= 2.0.2'
+  s.add_runtime_dependency 'charlock_holmes', '~> 0.7.6'
+  s.add_runtime_dependency 'nesty', '~> 1.0', '>= 1.0.1'
+  s.add_runtime_dependency 'rest-client', '~> 2.0', '>= 2.0.2'
 
   s.add_development_dependency 'pry', '~> 0.12.2'
   s.add_development_dependency 'rspec', '~> 3.5'

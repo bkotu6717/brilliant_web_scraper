@@ -6,38 +6,37 @@
 # @Social Profiles
 # @Contact Details
 module ScrapeHelper
-  def perform_scrape(url, read_timeout, connection_timeout)
-    response = nil
-    request_duration = Benchmark.measure do
-      response = ScrapeRequest.new(url, read_timeout, connection_timeout)
-    end.real
-    retry_count = 0
-    body = response.body
-    begin
-      encoding = body.detect_encoding[:encoding]
-      body = body.encode('UTF-8', encoding)
-      scrape_data = nil
-      scrape_duration = Benchmark.measure do
-        scrape_data = grep_data(body)
-      end.real
-
-      data_hash = {
-        web_request_duration: request_duration,
-        response_scrape_duraton: scrape_duration,
-        scrape_data: scrape_data
-      }
-    rescue Encoding::UndefinedConversionError, ArgumentError
-      retry_count += 1
-      raise WebScraper::ParserError, e.message if retry_count > 1
-      body = body.encode('UTF-16be', invalid: :replace, replace: '?')
-      retry
-    rescue Encoding::CompatibilityError => e
-      raise WebScraper::ParserError, e.message
+  def perform_scrape(url, read_timeout, open_timeout)
+    timeout_in_sec = scraper_timeout(read_timeout, open_timeout)
+    Timeout::timeout(timeout_in_sec) do
+      response = ScrapeRequest.new(url, read_timeout, open_timeout)
+      retry_count = 0
+      body = response.body
+      begin
+        body = body.tr("\000", '')
+        encoding = body.detect_encoding[:encoding]
+        body = body.encode('UTF-8', encoding)
+        grep_data(body)
+      rescue Encoding::UndefinedConversionError, ArgumentError => e
+        retry_count += 1
+        raise WebScraper::ParserError, e.message if retry_count > 1
+        body = body.encode('UTF-8', invalid: :replace, undef: :replace, replace: '?')
+        retry
+      rescue Encoding::CompatibilityError => e
+        raise WebScraper::ParserError, e.message
+      rescue StandardError => e
+        raise WebScraper::RequestError, e.message
+      end
     end
-    data_hash
+  rescue Timeout::Error => e
+    raise WebScraper::TimeoutError, e.message
   end
 
   private
+
+  def scraper_timeout(read_timeout, open_timeout)
+    ( read_timeout + open_timeout + 1 )
+  end
 
   def grep_data(response)
     {

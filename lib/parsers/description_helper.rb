@@ -21,7 +21,7 @@ module DescriptionHelper
   def parse_description(descriptions)
     return if descriptions.nil? || descriptions.empty?
 
-    descriptions = descriptions.reject { |x| x.nil? || x.empty? }
+    descriptions = descriptions.reject { |x| x.nil? || x.empty? || x =~ /^\s*$/}
     descriptions = descriptions.map { |x| unescape_html(x) }
     descriptions.find { |x| (x !~ /^\s*[|-]?\s*$/) }
   end

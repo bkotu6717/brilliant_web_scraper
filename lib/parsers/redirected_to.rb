@@ -2,6 +2,7 @@
 
 # Fetch latest url of the given website
 module RedirectedTo
+  include UnescapeHtmlHelper
 
   def grep_redirected_to_url(response)
     return if response.nil? || response.empty?
@@ -18,7 +19,7 @@ module RedirectedTo
       url = parser(web_urls)
       break unless url.nil?
     end
-    url
+    unescape_html(url)
   end
 
   private
